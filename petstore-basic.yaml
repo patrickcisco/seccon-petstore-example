@@ -395,7 +395,7 @@ paths:
       requestBody:
         description: Created user object
         content:
-          '*/*':
+          'application/json':
             schema:
               $ref: '#/components/schemas/User'
         required: true
